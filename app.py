@@ -21,4 +21,4 @@ def detect():
     return jsonify({'face_shape': face_shape})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
